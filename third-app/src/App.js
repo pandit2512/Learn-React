@@ -5,10 +5,13 @@ import EffectExample from "./Components/EffectExample";
 import GithubApi from "./Components/GithubApi";
 import GitHubProfile from "./Components/GitHubProfile";
 import Counter from "./Components/Counter";
+import FormHandler from "./Components/FormHandler";
 
 function App() {
   return (
     <div className="#">
+      <FormHandler />
+      <hr />
       <Counter />
       <hr />
       <GitHubProfile />
