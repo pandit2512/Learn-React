@@ -1,6 +1,6 @@
 import React from "react";
 import "../Blog.css"; // Import external styles
-import timeManagementImage from "./Images/time-management.jpg"; // Import the actual image
+import timeManagementImage from "../Images/time-management.jpg"; // Import the actual image
 const Blog = () => {
   const title = "10 Tips for Effective Time Management";
   const author = "John Doe";
