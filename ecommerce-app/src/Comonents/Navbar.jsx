@@ -52,6 +52,17 @@ function Navbar() {
                 Add Products
               </Link>
             </li>
+
+            <li className="nav-item">
+              <Link
+                className="nav-link active"
+                aria-current="page"
+                to="/all-products"
+                style={{ color: "#fff" }}
+              >
+                Products
+              </Link>
+            </li>
             <li className="nav-item">
               <Link className="nav-link" to="/shop" style={{ color: "#fff" }}>
                 Shop

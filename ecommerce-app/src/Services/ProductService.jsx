@@ -21,3 +21,10 @@ export const addProduct = async (product) => {
 
   return data;
 };
+
+//=========To get/see the Product =========
+export const fetchProducts = async () => {
+  const response = await fetch(API_LINK);
+  const data = await response.json();
+  return data["_embedded"]["products"];
+};

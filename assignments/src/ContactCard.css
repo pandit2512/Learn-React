@@ -1,0 +1,17 @@
+/* src/ContactCard.css */
+.contact-card {
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  border-radius: 8px;
+  box-shadow: 2px 2px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-card h2 {
+  margin: 0;
+  margin-bottom: 8px;
+}
+
+.contact-card p {
+  margin: 4px 0;
+}
