@@ -1,4 +1,5 @@
 import React, { useReducer } from "react";
+import { useLoginContext } from "../Login";
 
 const reducer = (state, action) => {
   // console.log("State", state);
@@ -19,8 +20,14 @@ const reducer = (state, action) => {
 const initialState = [];
 function ToDo() {
   const [toDos, dispatch] = useReducer(reducer, initialState);
+
+  // Using Custom Hook
+  const { login } = useLoginContext();
+
   return (
     <div>
+      {login ? "You are Logged in" : "You are Logged Out"}
+
       <input
         type="text"
         onBlur={(e) => {
