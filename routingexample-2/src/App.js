@@ -33,7 +33,7 @@ const routes = createBrowserRouter([
       },
 
       // below is called index route, means about section will be only
-      //visible only on Home Page
+      //visible  on Home Page
 
       {
         path: "",
